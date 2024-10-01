@@ -6,12 +6,12 @@ Welcome to **ai-discord-bot**, where you can run any AI model locally using LM S
 
 ### Prerequisites
 
-Make sure you have installed [LM Studio](https://lmstudio.com/download) on your machine. LM Studio allows you to easily run AI models of your choice.
+Make sure you have installed [LM Studio](https://lmstudio.ai/) on your machine. LM Studio allows you to easily run AI models of your choice.
 
 ### Installation
 
 1. **Download LM Studio:**
-   - Visit [LM Studio](https://lmstudio.com/download) and install the tool on your machine.
+   - Visit [LM Studio](https://lmstudio.ai/) and install the tool on your machine.
    
 2. **Run an AI Model:**
    - Open LM Studio and load the AI model you wish to run.
@@ -25,19 +25,19 @@ Make sure you have installed [LM Studio](https://lmstudio.com/download) on your 
 4. **Configure API Key:**
    - Before running your code, make sure to add your OpenAI API key in your environment. You can set the key in your environment like this:
      ```bash
-     export OPENAI_API_KEY=your_api_key_here
+     ai = OpenAI(api_key="your open ai key")
      ```
 
 5. **Run Your Code:**
    - Now that your server is running, you can proceed to run your code:
      ```bash
-     python your_code.py
+     python discord_bot.py
      ```
 
 ### Creating a Discord Bot
 
 1. **Get a Discord Developer Account:**
-   - Visit the [Discord Developer Portal](https://discord.com/developers/applications) and log in with your Discord account.
+   - Visit the [Discord Developer Portal](https://discord.com/developers/docs/intro) and log in with your Discord account.
 
 2. **Create a New Application:**
    - Click on **New Application** and give your bot a name. Choose all the necessary settings for your Discord bot, such as name, avatar, and description.
