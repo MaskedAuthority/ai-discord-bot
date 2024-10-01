@@ -1,6 +1,6 @@
 # ai-discord-bot
 
-Welcome to **ai-discord-bot**, where you can run any AI model locally using LM Studio. Follow the steps below to set up and start the server:
+Welcome to **ai-discord-bot**, where you can run any AI model locally using LM Studio and create your own Discord bot. Follow the steps below to set up and start the server, and create your Discord bot.
 
 ## Getting Started
 
@@ -34,9 +34,26 @@ Make sure you have installed [LM Studio](https://lmstudio.com/download) on your 
      python your_code.py
      ```
 
+### Creating a Discord Bot
+
+1. **Get a Discord Developer Account:**
+   - Visit the [Discord Developer Portal](https://discord.com/developers/applications) and log in with your Discord account.
+
+2. **Create a New Application:**
+   - Click on **New Application** and give your bot a name. Choose all the necessary settings for your Discord bot, such as name, avatar, and description.
+
+3. **Configure OAuth2 for Your Bot:**
+   - Go to the **OAuth2** tab in your application.
+   - Under the OAuth2 settings, select **bot** and any other permissions your bot will need.
+   - Copy the generated OAuth2 URL and use it to invite the bot to your Discord server.
+
+4. **Invite the Bot:**
+   - Paste the OAuth2 URL in your browser and follow the steps to invite the bot to your Discord server.
+
 ## Additional Notes
 
 - Ensure that the server is running before executing your script.
 - Replace `your_api_key_here` with your actual OpenAI API key.
-  
+- After configuring the Discord bot, it should be visible in the server where it was invited.
+
 Feel free to raise any issues or contribute!
