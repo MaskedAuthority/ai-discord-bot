@@ -72,4 +72,4 @@ async def on_guild_available(guild):
     except KeyError as e:
         print(f"Encountered an unknown sticker format: {e}")
 
-client.run("MTE5MDAyNTYwNzM3NjAxOTQ4Ng.Gp6yQD.jKVooNmSeBviuGptklpn1EGsQBUOtQrXh9qRuE")
+client.run("your discord token")
