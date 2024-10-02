@@ -18,7 +18,7 @@ Make sure you have installed [LM Studio](https://lmstudio.ai/) on your machine. 
 
 3. **Start the Server:**
    - After setting up your model in LM Studio, go to the server directory in your terminal and run the following command:
-     ```bash
+     ```
      start server
      ```
 
