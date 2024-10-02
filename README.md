@@ -17,10 +17,8 @@ Make sure you have installed [LM Studio](https://lmstudio.ai/) on your machine. 
    - Open LM Studio and load the AI model you wish to run.
 
 3. **Start the Server:**
-   - After setting up your model in LM Studio, go to the server directory in your terminal and run the following command:
-     ```
-     start server
-     ```
+   - After setting up your model in LM Studio click start server in local server:
+     
 
 4. **Configure API Key:**
    - Before running your code, make sure to add your OpenAI API key in your environment. You can set the key in your environment like this:
